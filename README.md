@@ -17,7 +17,7 @@ Configuration
 
 Edit the modules `EMULATOR_CONFIG` and `SERIAL_CONFIG` in `config.rb`.
 
-* `VALUES`: range of values which can be generated (HomeMon expects single byte values, i.e. from 0 to 255)
+* `VALUES`: range of values which can be generated (HomeMon works with any 32-bit integer range, i.e. from 0 to 255 or from -31400 to 31400)
 * `VARS`: variable names
 * `REFRESH_RATE`: rate (in milliseconds) at which the emulator will update its variables and send an output.
 
